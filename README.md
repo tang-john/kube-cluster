@@ -19,7 +19,7 @@ Make sure these IP addresses are not being used by any other computer or VMs. If
 These instructions will use d:\data\vm\vagrant\kubernetes\01-cluster\logs directory for logs but you can use any directory.
 
  * Create a directory with path d:\data\vm\vagrant\kubernetes\01-cluster\logs
- * Copy file Vagrantfile-cluster to d:\data\vm\vagrant\kubernetes\01-cluster\Vagrantfile
+ * Copy file Vagrantfile to d:\data\vm\vagrant\kubernetes\01-cluster\
  * Start a command shell and go to d:\data\vm\vagrant\kubernetes\01-cluster\
  * Execute from the command shell the following commands to download Vagrant boxes
     - vagrant box add johntang/kubemaster --box-version 1.0.0 --provider virtualbox
@@ -42,7 +42,7 @@ These instructions will use d:\data\vm\vagrant\kubernetes\01-cluster\logs direct
 These instructions will use /data/vm/vagrant/kubernetes/00-cluster directory. If you decide to use any other directory you will need to execute some extra steps.
 
  * Create a directory with path /data/vm/vagrant/kubernetes/00-cluster
- * Copy file Vagrantfile-cluster to /data/vm/vagrant/kubernetes/00-cluster/Vagrantfile
+ * Copy file Vagrantfile to /data/vm/vagrant/kubernetes/00-cluster/
  * Start a command shell and go to /data/vm/vagrant/kubernetes/00-cluster
  * Vagrant will download boxes defined in Vagrantfile if they are used for the first time. However, we will download the boxes manually for easier execution of step 5. Execute from the command shell the following lines.
     - vagrant box add johntang/kubemaster --box-version 1.0.0 --provider virtualbox
