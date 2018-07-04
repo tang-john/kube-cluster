@@ -1,4 +1,4 @@
-# kube-# kube-cluster
+# kube-cluster
 This Kubernetes cluster has one master and two worker nodes. It can be used for learning or development. It includes two instances of the echoserver application that can be used to validate the installation of the cluster. Note: this Kubernetes cluster is essentially bare bones. It does not support the LoadBalancer type and it does not have a CNI.  Use [kube-cluster-loadbalancer](https://github.com/tang-john/kube-cluster-loadbalancer) if you need a Kubernetes cluster with LoadBalancer type  and a CNI.
 
 
